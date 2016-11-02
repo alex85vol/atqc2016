@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84033" started-at="2016-11-01T18:03:44Z" finished-at="2016-11-01T18:05:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84033" started-at="2016-11-01T18:03:44Z" finished-at="2016-11-01T18:05:08Z">
+      <class name="com.softserve.edu.reg.tests.LoginTest">
+        <test-method status="PASS" signature="checkAdminLogin(com.softserve.edu.reg.apps.ApplicationSources, com.softserve.edu.reg.data.IUser)[pri:0, instance:com.softserve.edu.reg.tests.LoginTest@5f341870]" name="checkAdminLogin" duration-ms="59488" started-at="2016-11-01T20:03:44Z" data-provider="adminUsers" finished-at="2016-11-01T20:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.softserve.edu.reg.apps.ApplicationSources@131276c2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.softserve.edu.reg.data.User@26aa12dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.softserve.edu.reg.tests.LoginTest@5f341870]" name="afterMethod" is-config="true" duration-ms="1074" started-at="2016-11-01T20:04:44Z" finished-at="2016-11-01T20:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="checkAdminLogin(com.softserve.edu.reg.apps.ApplicationSources, com.softserve.edu.reg.data.IUser)[pri:0, instance:com.softserve.edu.reg.tests.LoginTest@5f341870]" name="checkAdminLogin" duration-ms="22701" started-at="2016-11-01T20:04:45Z" data-provider="adminUsers" finished-at="2016-11-01T20:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.softserve.edu.reg.apps.ApplicationSources@5b799640]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.softserve.edu.reg.data.User@6cb107fd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.softserve.edu.reg.tests.LoginTest@5f341870]" name="afterMethod" is-config="true" duration-ms="732" started-at="2016-11-01T20:05:08Z" finished-at="2016-11-01T20:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.softserve.edu.reg.tests.LoginTest@5f341870]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-11-01T20:05:08Z" finished-at="2016-11-01T20:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.softserve.edu.reg.tests.LoginTest -->
+      <class name="com.softserve.edu.reg.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.softserve.edu.reg.AppTest@14bf9759]" name="testApp" duration-ms="11" started-at="2016-11-01T20:03:44Z" finished-at="2016-11-01T20:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.softserve.edu.reg.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
